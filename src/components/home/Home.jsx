@@ -27,7 +27,7 @@ function Home() {
         <h3 className='text-light'> Frontend Developer</h3>
 
         <div className='btns'>
-        <a href='/assets/mycv.pdf' className='btn' download >Download CV</a>
+        <a href='/assets/mycvlastv.pdf' className='btn' download >Download CV</a>
         <a 
             href="https://wa.me/201102152653" 
             target="_blank" 
