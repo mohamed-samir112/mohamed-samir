@@ -1,0 +1,101 @@
+.contact_container{
+    width: 60%;
+    display: grid;
+    grid-template-columns:30% 58% ;
+    gap :12%
+}
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact_option{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.contact_option:hover{
+    border-color:rgb(5, 91, 210);
+    background:transparent ;
+
+}
+.contact_option svg{
+    font-size:2rem ;
+    margin-bottom: 0.5rem;
+}
+.contact_option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+.contact_container form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact_container form input ,
+.contact_container form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
+.contact_container form button{
+    font-size: 18px;
+    padding: 14px 30px;
+}
+
+/* animation */
+
+/* الحركة للكروت */
+.contact_option:nth-child(1) {
+  animation: moveRight 3s ease-in-out infinite;
+}
+
+.contact_option:nth-child(2) {
+  animation: moveLeft 3s ease-in-out infinite;
+}
+
+.contact_option:nth-child(3) {
+  animation: moveRight 3s ease-in-out infinite;
+  animation-delay: 0.8s; /* عشان يبقوا مش نفس التوقيت */
+}
+
+/* keyframes */
+@keyframes moveRight {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+}
+
+@keyframes moveLeft {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-15px);
+  }
+}
+
+@media (max-width:1024px) {
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+
+    }
+}
+@media (max-width:600px) {
+    .contact_container{
+        width: 90%;
+    }
+
+}
