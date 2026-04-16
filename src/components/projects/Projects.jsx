@@ -3,28 +3,28 @@ import './Projects.css'
 const portfolioData =[
   {
     id:1,
-    image:"src/assets/ecommarce.png",
+    image:"/assets/ecommarce.png",
     title:"E-commerace website",
     github:"https://github.com/mohamed-samir112/Ecommerace-project",
     demo:"https://ecommerace-project-opal.vercel.app/",
   },
   {
     id:2,
-    image:"src/assets/najez.png",
+    image:"/assets/najez.png",
     title:"Landing Page najez website",
     github:"https://najez-task.netlify.app/",
     demo:"https://najez-task.netlify.app/",
   },
   {
     id:3,
-    image:"src/assets/mawakeet.png",
+    image:"/assets/mawakeet.png",
     title:"Mawakeet Elsalaah",
     github:"https://github.com/mohamed-samir112/mawakeet-salah",
     demo:"https://najez-task.netlify.app/",
   },
   {
     id:4,
-    image:"src/assets/list.png",
+    image:"/assets/list.png",
     title:"Todo list app",
     github:"https://github.com/mohamed-samir112/todoList-react",
     demo:"https://to-do-listapp-react.netlify.app/",
@@ -59,3 +59,4 @@ function Projects() {
 }
 
 export default Projects
+

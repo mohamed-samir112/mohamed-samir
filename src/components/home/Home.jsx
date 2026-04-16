@@ -27,7 +27,7 @@ function Home() {
         <h3 className='text-light'> Frontend Developer</h3>
 
         <div className='btns'>
-        <a href='src/assets/mycv.pdf' className='btn' download >Download CV</a>
+        <a href='/assets/mycv.pdf' className='btn' download >Download CV</a>
         <a 
             href="https://wa.me/201102152653" 
             target="_blank" 
@@ -35,10 +35,9 @@ function Home() {
             className="btn btn-primary"> Let's talk <FaWhatsapp /></a>
                   </div>
         <div  className=" me  floating">
-        <img src='src/assets/me.png'  alt='not found'/>
+        <img src='/assets/me.png'  alt='not found'/>
                 </div>
         
-      
       
       
       <a href='#about' className='scroll_down'>Scroll Down</a>
@@ -52,3 +51,4 @@ function Home() {
 }
 
 export default Home
+
