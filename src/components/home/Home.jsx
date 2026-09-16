@@ -28,7 +28,7 @@ function Home() {
 
         <div className='btns'>
 
-        <a href='/assets/mycvlastv.pdf' className='btn' download >Download CV</a>
+        <a href='/assets/mycvL.pdf' className='btn' download >Download CV</a>
         <a 
             href="https://wa.me/201102152653" 
             target="_blank" 
