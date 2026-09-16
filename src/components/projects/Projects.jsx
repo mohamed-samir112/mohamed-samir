@@ -20,7 +20,7 @@ const portfolioData =[
     image:"/assets/mawakeet.png",
     title:"Mawakeet Elsalaah",
     github:"https://github.com/mohamed-samir112/mawakeet-salah",
-    demo:"https://najez-task.netlify.app/",
+    demo:"https://mawakeet-salah.vercel.app/",
   },
   {
     id:4,

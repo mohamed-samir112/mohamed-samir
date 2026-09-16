@@ -51,6 +51,9 @@
 .floating {
   animation: float 2s ease-in-out infinite;
 }
+.me{
+    z-index: 50 ;
+}
 @keyframes float {
   0%   { transform: translateY(0px); }
   50%  { transform: translateY(-20px); }    

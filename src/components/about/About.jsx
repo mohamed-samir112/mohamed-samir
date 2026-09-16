@@ -32,9 +32,13 @@ function About() {
         </div>
 
             <p className="about_desc">
-              I'm Frontend Developer with a strong focus on building scalable and responsive web applications using Reactjs,Nextjs Experienced in developing interactive user interfaces and optimizing performance.
-              Skilled in HTML, CSS, JavaScript, and modern frontend tools. Passionate about creating seamless user experiences and writing clean, maintainable code.
-              Built multiple projects, including e-commerce platforms and dynamic web applications. Currently seeking an opportunity to contribute and grow in a professional environment.
+              Motivated Software Engineer with a strong foundation in programming, data structures,
+algorithms, and software development principles. Experienced in building responsive
+web applications using React.js, JavaScript, and modern front-end technologies, with a
+growing specialization in Python automation, web automation, data processing, and
+Excel automation. Passionate about writing clean, maintainable code, automating
+repetitive tasks, solving technical problems, and continuously learning new technologies
+to build efficient and reliable software solutions
               </p>
 
 
